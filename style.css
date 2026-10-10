@@ -1,0 +1,24 @@
+:root{
+  font-family: 'verdana', sans-serif;
+}
+.quiz-um{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  top: 50px;
+}
+.quiz-dois{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  top: 50px;
+}
+.quiz-tres{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  top: 50px;
+}
