@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ComputaQuiz</title>
+    <title>Quiz - evolução</title>
     <link rel="shortcut icon" href="img/quiz.ico" type="image/x-icon">
     <link rel="stylesheet" href="quizum.css">
     <script src="quizum.js" defer></script>
@@ -11,20 +11,23 @@
 <body>
     <header>
         <nav>
-            <button onclick=window.location.reload()>Casa 🏠</button>
-            <p>Quiz de Multiplas escolhas <br> <b>&</b></br>Verdadeiro e Falso</p>
+            <table>
+                <tr>
+                    <td>
+                        <button onclick=window.location.reload()>Reiniciar</button>
+                    </td>
+                    <td>
+                        <button onclick=window.location.reload()>Escolher outro quiz</button>
+                    </td>
+                </tr>
+            </table>
         </nav>
-        <button onclick="verPontuacao()">Ver Ultima Pontuação</button>
-        <audio id="somAcerto" src="audio/Certo.mp3"></audio>
-        <audio id="somErro" src="audio/Errado.mp3"></audio>
-        <audio id="somEntrar" src="audio/muse click.mp3"></audio>
-        <audio id="somFundo" src="audio/Musica fundo.mp3"></audio>
     </header>
     
     <div class="JogoCompleto">
 
         <div class="Boas_vindas">
-            <h1>Bem-vindo ao ComputaQuiz</h1>
+            <h1>Bem-vindo ao Quiz sobre Evolução</h1>
         </div>
 
         <div class="cadastro esconder">

@@ -153,16 +153,8 @@ function FinalDoJogo() {
     </button>
   `;
 
-  localStorage.setItem("Usuario", nomeJogador);
-  localStorage.setItem("potuacao", String(TotalCorretas));
-}
 
-function verPontuacao() {
-  const UltimoUser = localStorage.getItem("Usuario") || "Nenhum jogador";
-  const UltimaPont = localStorage.getItem("potuacao") || "0";
-  alert(`Último Jogador: ${UltimoUser}, Pontuação: ${UltimaPont}`);
 }
-
 const PERGUNTAS = [
   {
     pergunta: "Quem ficou conhecido por desenvolver a teoria da evolução por seleção natural?",
